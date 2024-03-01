@@ -32,7 +32,7 @@
     }
 
     document.addEventListener("alpine:init", () => {
-        Alpine.store("repoUrl", "https://raw.githubusercontent.com/keiyoushi/extensions/repo");
+        Alpine.store("repoUrl", "https://raw.githubusercontent.com/Yuhwa/extensions/repo");
 
         Alpine.data("extensionList", () => ({
             LoadingStatus,
